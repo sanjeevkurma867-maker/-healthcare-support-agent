@@ -1,0 +1,1 @@
+# No third-party packages are needed. The prototype uses only the Python standard library (Python 3.9+).

@@ -1,0 +1,37 @@
+{
+  "plans": [
+    {"code": "GOLD", "name": "SynCare Gold", "deductible": 1500, "oop_max": 5000, "pcp_copay": 20, "specialist_copay": 40, "urgent_copay": 75, "er_copay": 250, "generic_rx_copay": 10, "brand_rx_copay": 45, "coinsurance_pct": 20, "virtual_copay": 0},
+    {"code": "SILVER", "name": "SynCare Silver", "deductible": 3000, "oop_max": 7500, "pcp_copay": 35, "specialist_copay": 65, "urgent_copay": 100, "er_copay": 350, "generic_rx_copay": 15, "brand_rx_copay": 60, "coinsurance_pct": 30, "virtual_copay": 10}
+  ],
+  "users": [
+    {"email": "priya@example.test", "name": "Priya Synthetic", "role": "member", "member_number": "SYN-MBR-1001", "plan": "GOLD"},
+    {"email": "ravi@example.test", "name": "Ravi Synthetic", "role": "member", "member_number": "SYN-MBR-1002", "plan": "SILVER"},
+    {"email": "jordan@example.test", "name": "Jordan Example", "role": "provider"},
+    {"email": "sam@example.test", "name": "Sam Reviewer", "role": "agent"},
+    {"email": "alex@example.test", "name": "Alex Operator", "role": "admin"}
+  ],
+  "claims": [
+    {"claim_number": "SYN-CLM-2026-000101", "member_number": "SYN-MBR-1001", "provider": "Metro Ortho & Spine Clinic", "service_date": "2026-09-12", "billed": 1800.00, "plan_paid": 0.00, "member_owes": 1800.00, "status": "Processed - Denied", "reason": "No prior authorization was on file for advanced imaging."},
+    {"claim_number": "SYN-CLM-2026-000102", "member_number": "SYN-MBR-1001", "provider": "Lakeview Family Care", "service_date": "2026-10-03", "billed": 140.00, "plan_paid": 120.00, "member_owes": 20.00, "status": "Processed - Paid", "reason": ""},
+    {"claim_number": "SYN-CLM-2026-000103", "member_number": "SYN-MBR-1001", "provider": "Riverside Pharmacy", "service_date": "2026-10-20", "billed": 62.00, "plan_paid": 0.00, "member_owes": 0.00, "status": "Pending Information", "reason": "The plan needs the prescriber's identifier."},
+    {"claim_number": "SYN-CLM-2026-000201", "member_number": "SYN-MBR-1002", "provider": "Hillcrest Cardiology", "service_date": "2026-10-08", "billed": 420.00, "plan_paid": 0.00, "member_owes": 0.00, "status": "In Review", "reason": ""}
+  ],
+  "requirement_sets": [
+    {"code": "LUMBAR-MRI", "name": "Lumbar spine MRI", "keywords": ["mri", "lumbar", "spine", "back scan"],
+     "requirements": [
+       "Member number",
+       "Requested service date",
+       "Ordering provider identifier",
+       "Documented conservative therapy of at least 6 weeks",
+       "Clinical notes describing the back pain and neurological findings",
+       "Referral letter"]},
+    {"code": "PT-EXTENDED", "name": "Extended physical therapy", "keywords": ["physical therapy", "physiotherapy", "physio", "pt visits"],
+     "requirements": [
+       "Member number",
+       "Requested service date",
+       "Physical therapy evaluation",
+       "Treatment plan with goals",
+       "Number of visits already used",
+       "Referral from a physician"]}
+  ]
+}

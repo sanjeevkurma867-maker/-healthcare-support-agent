@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {"id": "gold-guide-2026", "file": "gold-guide-2026.md", "title": "SynCare Gold Plan Benefits Guide", "audience": "member", "plan": "GOLD", "version": "2026", "superseded": false},
+    {"id": "silver-guide-2026", "file": "silver-guide-2026.md", "title": "SynCare Silver Plan Benefits Guide", "audience": "member", "plan": "SILVER", "version": "2026", "superseded": false},
+    {"id": "gold-guide-2025", "file": "gold-guide-2025.md", "title": "SynCare Gold Plan Benefits Guide", "audience": "member", "plan": "GOLD", "version": "2025", "superseded": true},
+    {"id": "claims-guide", "file": "claims-guide.md", "title": "Understanding Your Claims", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "appeals-guide", "file": "appeals-guide.md", "title": "Appeals and Grievances Guide", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "pharmacy-guide", "file": "pharmacy-guide.md", "title": "Pharmacy Benefits Guide", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "virtual-care-guide", "file": "virtual-care-guide.md", "title": "Virtual Care Guide", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "glossary", "file": "glossary.md", "title": "Plain-Language Insurance Glossary", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "pa-member-guide", "file": "pa-member-guide.md", "title": "Prior Authorization: What Members Need to Know", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "member-privacy", "file": "member-privacy.md", "title": "Member Privacy and Rights", "audience": "member", "plan": null, "version": "2026", "superseded": false},
+    {"id": "pa-provider-guide", "file": "pa-provider-guide.md", "title": "Prior Authorization Guide for Providers", "audience": "provider", "plan": null, "version": "2026", "superseded": false},
+    {"id": "pa-lumbar-mri", "file": "pa-lumbar-mri.md", "title": "Prior Authorization Requirements: Lumbar Spine MRI", "audience": "provider", "plan": null, "version": "1.0", "superseded": false},
+    {"id": "pa-extended-pt", "file": "pa-extended-pt.md", "title": "Prior Authorization Requirements: Extended Physical Therapy", "audience": "provider", "plan": null, "version": "1.0", "superseded": false},
+    {"id": "support-sop", "file": "support-sop.md", "title": "Support Case Escalation Procedure", "audience": "internal", "plan": null, "version": "1.0", "superseded": false}
+  ]
+}
